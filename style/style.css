@@ -59,7 +59,7 @@ header {
 
 /* Título dentro do bloco header */
 .header__titulo {
-    padding: 0.9375em 0.9375em 0.5em 0.9375em;
+    padding: 0.5em ;
     font-family: var(--fonte-destaque);
     font-size: 3.6em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
