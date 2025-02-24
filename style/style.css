@@ -26,8 +26,8 @@
 
 /* Reset básico para remover padding e margin padrão e definir box-sizing */
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
     box-sizing: border-box;
 }
 
@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 200px;
+    min-width: 12.5em;
     font-family: var(--fonte-padrao);
     background-color: var(--cor1);
 }
@@ -59,7 +59,7 @@ header {
 
 /* Título dentro do bloco header */
 .header__titulo {
-    padding: 30px;
+    padding: 0.9375em 0.9375em 0.5em 0.9375em;
     font-family: var(--fonte-destaque);
     font-size: 3.6em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
@@ -67,10 +67,9 @@ header {
 
 /* Descrição dentro do bloco header */
 .header__descricao {
-    padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 1.25em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
-    max-width: 500px;
+    max-width: 27em;
     margin: auto;
 }
 
@@ -88,8 +87,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor0);
-    padding: 10px;
-    margin: 10px;
+    padding: 0.3125em;
+    margin: 0.625em 0.3125em 0.625em 0.3125em;
     transition: background-color 0.3s, color 0.4s;
     
 }
@@ -98,7 +97,7 @@ nav a {
 nav a:hover {
     background-color: var(--cor0);
     color: var(--cor5);
-    border-radius: 3px;
+    border-radius: 0.1875em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
     transition: background-color 0.3s, color 0.4s;
 }
@@ -107,8 +106,8 @@ nav a:hover {
 main {
     background-color: white;
     width: 90%;
-    max-width: 800px;
-    padding: 30px;
+    max-width: 50em;
+    padding: 1.875em;
     margin: 0 auto;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30);
@@ -120,8 +119,8 @@ main {
     background-color: var(--cor0);
     color: var(--cor4);
     text-decoration: none;
-    padding: 2px;
-    border-radius: 5px;
+    padding: 0.0625em;
+    border-radius: 0.3125em;
     content: '\1F517';
 }
 
@@ -151,8 +150,8 @@ strong {
 .text {
 	text-align: justify;
 	line-height: 1.3em;
-	text-indent: 25px;
-	padding: 20px 0px;
+	text-indent: 1.5625em;
+	padding: 1.25em 0em;
 }
 
 /* Estilo para títulos h2 com gradiente de fundo */
@@ -160,8 +159,8 @@ strong {
     font-family: var(--fonte-Android);
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor2), transparent);
-    padding: 5px;
-    border-radius: 2px;
+    padding: 0.3125em;
+    border-radius: 0.125em;
 }
 
 
@@ -169,7 +168,7 @@ strong {
 .img {
     height: auto;
     width: auto;
-    max-height: 300px;
+    max-height: 18.75em;
     max-width: 100%;
     display: block;
     margin: auto;
@@ -182,7 +181,7 @@ strong {
     overflow: hidden;
     height: 0;
     background-color: var(--cor4);
-    margin: 0px -30px 30px -30px ;
+    margin: 0em -1.875em 1.875em -1.875em;
 }
 
 /* Iframe dentro do contêiner de vídeo */
@@ -197,7 +196,7 @@ strong {
 /* Bloco: aside (seção adicional) */
 .aside {
     background-color: var(--cor0);
-    border-radius: 10px;
+    border-radius: 0.625em;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.30);
 }
 
@@ -205,25 +204,25 @@ strong {
 .aside__titulo {
     background-color: var(--cor3);
     color: white;
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
+    padding: 0.625em;
+    border-radius: 0.625em 0.625em 0em 0em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.30);
 }
 
 /* Textos dentro do aside */
 .aside__text {
-    padding: 10px;
+    padding: 0.625em;
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 1.25em
 }
 
 /* Lista com duas colunas */
 .ul {
     column-count: 2;
-    padding-left: 40px;
-    margin-bottom: 10px;
+    padding-left: 1.875em;
+    margin-bottom: 0.625em;
     list-style-position: inside;
-    column-gap: 0px;
+    column-gap: 0em;
     line-height: 1.5em;
 }
 
@@ -232,6 +231,6 @@ footer {
     background-color: var(--cor4);
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 0.3125em;
     width: 100%;
 }
